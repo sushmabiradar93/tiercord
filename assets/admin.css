@@ -1,0 +1,29 @@
+/* TierCord admin screens. */
+.tiercord-tab-body{margin-top:20px;max-width:1100px}
+.tiercord-card,.tiercord-em-card{background:#fff;border:1px solid #dcdcde;border-radius:6px;padding:18px 22px;margin-bottom:20px}
+.tiercord-card h2,.tiercord-em-card h2{margin-top:0}
+.tiercord-steps li{margin-bottom:6px}
+.tiercord-matrix th,.tiercord-matrix td{text-align:center;vertical-align:middle}
+.tiercord-matrix th:first-child,.tiercord-matrix td:first-child{text-align:left}
+.tiercord-pill{display:inline-block;padding:2px 8px;border-radius:10px;font-size:12px;line-height:18px;background:#f0f0f1;color:#50575e;margin:1px 2px}
+.tiercord-pill.active{background:#d1f2dc;color:#0a5c2b}
+.tiercord-pill.paused{background:#fcf0d1;color:#7a5400}
+.tiercord-pill.error,.tiercord-pill.needs_reconnect{background:#fbdcdc;color:#8a1f1f}
+.tiercord-warn{color:#b32d2e}
+.tiercord-log td{font-size:12px}
+.tiercord-log .error,.tiercord-em-log .error{color:#b32d2e}
+.tiercord-log .warning,.tiercord-em-log .warning{color:#996800}
+code.tiercord-copy{user-select:all}
+.tiercord-em-aud{margin:6px 0 6px 24px}
+.tiercord-em-bar{background:#eee;border-radius:4px;height:8px;width:140px;overflow:hidden;display:inline-block;vertical-align:middle}
+.tiercord-em-bar span{display:block;height:8px;background:#2271b1}
+.tiercord-em-tpl textarea{width:100%;font-family:monospace;font-size:12px}
+.tiercord-em-sent{background:#e7f6ec;padding:6px 8px;border-radius:4px}
+.tiercord-em-levels{margin:4px 0 0 22px}
+.tiercord-em-levels label{display:block}
+.tiercord-role-list label{display:inline-block;margin:2px 14px 2px 0;white-space:nowrap}
+.tiercord-role-disabled{opacity:.6}
+.tiercord-matrix-server{border-bottom:1px solid #dcdcde}
+.tiercord-channels .tiercord-category td{font-weight:600;background:#f6f7f7}
+.tiercord-channels td:first-child{width:40%}
+.tiercord-em-block{display:block}

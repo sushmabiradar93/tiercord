@@ -1,0 +1,19 @@
+/* TierCord member-facing boxes ([tiercord] and [tiercord_email_preferences]). */
+.tiercord-box{border:1px solid rgba(0,0,0,.12);border-radius:10px;padding:20px 22px;margin:24px 0;max-width:640px}
+.tiercord-title{margin:0 0 10px}
+.tiercord-btn{display:inline-block;padding:10px 18px;border-radius:6px;background:#222;color:#fff !important;text-decoration:none !important;font-weight:600;border:0;cursor:pointer}
+.tiercord-btn-discord{background:#5865F2}
+.tiercord-btn:hover{opacity:.9}
+.tiercord-servers{list-style:none;margin:12px 0;padding:0}
+.tiercord-servers li{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px solid rgba(0,0,0,.08)}
+.tiercord-servers li:last-child{border-bottom:0}
+.tiercord-locked span{opacity:.6}
+.tiercord-msg{padding:10px 12px;border-radius:6px;margin:10px 0;font-size:.95em}
+.tiercord-msg-success{background:#e7f6ec;color:#11592c}
+.tiercord-msg-info{background:#eef2f7;color:#2c3e50}
+.tiercord-msg-error{background:#fde8e8;color:#8a1f1f}
+.tiercord-link{font-size:.9em;opacity:.75}
+.tiercord-roles{list-style:none;margin:4px 0 0;padding:0 0 0 2px;width:100%}
+.tiercord-roles li{border:0 !important;padding:2px 0 !important;display:block !important;font-size:.95em}
+.tiercord-server-head{display:flex;justify-content:space-between;gap:12px;width:100%}
+.tiercord-servers li.tiercord-server{display:block}
